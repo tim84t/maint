@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  */
-package com.qt.maint.controller;
+package com.qt.maint.index.web.controller;
 
 import com.qt.maint.sys.resource.entity.tmp.Menu;
 import com.qt.maint.sys.resource.service.ResourceService;
