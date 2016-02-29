@@ -5,7 +5,7 @@
  */
 package com.qt.maint.extra.aop;
 
-import com.sishuok.es.common.cache.BaseCacheAspect;
+import com.qt.maint.common.cache.BaseCacheAspect;
 import com.qt.maint.sys.user.entity.User;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

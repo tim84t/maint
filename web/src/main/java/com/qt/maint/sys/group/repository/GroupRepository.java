@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.group.repository;
 
-import com.sishuok.es.common.repository.BaseRepository;
+import com.qt.maint.common.repository.BaseRepository;
 import com.qt.maint.sys.group.entity.Group;
 import org.springframework.data.jpa.repository.Query;
 

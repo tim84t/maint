@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.task;
 
-import com.sishuok.es.common.repository.RepositoryHelper;
-import com.sishuok.es.common.utils.LogUtils;
+import com.qt.maint.common.repository.RepositoryHelper;
+import com.qt.maint.common.utils.LogUtils;
 import com.qt.maint.sys.organization.service.JobService;
 import com.qt.maint.sys.organization.service.OrganizationService;
 import com.qt.maint.sys.user.entity.User;

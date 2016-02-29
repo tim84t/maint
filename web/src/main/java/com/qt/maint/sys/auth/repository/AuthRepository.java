@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.auth.repository;
 
-import com.sishuok.es.common.repository.BaseRepository;
+import com.qt.maint.common.repository.BaseRepository;
 import com.qt.maint.sys.auth.entity.Auth;
 
 import java.util.Set;

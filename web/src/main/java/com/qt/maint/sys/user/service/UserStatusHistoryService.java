@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.service;
 
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.entity.UserStatus;
 import com.qt.maint.sys.user.entity.UserStatusHistory;

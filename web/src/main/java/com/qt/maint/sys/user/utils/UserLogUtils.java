@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.utils;
 
-import com.sishuok.es.common.utils.IpUtils;
-import com.sishuok.es.common.utils.LogUtils;
+import com.qt.maint.common.utils.IpUtils;
+import com.qt.maint.common.utils.LogUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.context.request.RequestAttributes;

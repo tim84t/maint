@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.auth.service;
 
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.auth.entity.Auth;
 import com.qt.maint.sys.auth.repository.AuthRepository;
 import com.qt.maint.sys.group.entity.Group;

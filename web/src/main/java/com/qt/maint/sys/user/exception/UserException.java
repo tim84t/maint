@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.exception;
 
-import com.sishuok.es.common.exception.BaseException;
+import com.qt.maint.common.exception.BaseException;
 
 /**
  * <p>User: Zhang Kaitao

@@ -6,7 +6,7 @@
 package com.qt.maint.sys.permission.service;
 
 import com.google.common.collect.Sets;
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.permission.entity.Role;
 import com.qt.maint.sys.permission.entity.RoleResourcePermission;
 import com.qt.maint.sys.permission.repository.RoleRepository;

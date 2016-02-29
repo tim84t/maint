@@ -5,9 +5,9 @@
  */
 package com.qt.maint.sys.permission.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.entity.enums.AvailableEnum;
-import com.sishuok.es.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.entity.enums.AvailableEnum;
+import com.qt.maint.common.web.controller.BaseCRUDController;
 import com.qt.maint.sys.permission.entity.Permission;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

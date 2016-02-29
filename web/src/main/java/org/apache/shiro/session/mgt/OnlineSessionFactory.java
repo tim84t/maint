@@ -5,7 +5,7 @@
  */
 package org.apache.shiro.session.mgt;
 
-import com.sishuok.es.common.utils.IpUtils;
+import com.qt.maint.common.utils.IpUtils;
 import com.qt.maint.sys.user.entity.UserOnline;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.web.session.mgt.WebSessionContext;

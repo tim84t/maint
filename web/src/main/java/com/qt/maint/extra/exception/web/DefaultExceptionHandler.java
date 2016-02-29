@@ -5,7 +5,7 @@
  */
 package com.qt.maint.extra.exception.web;
 
-import com.sishuok.es.common.utils.LogUtils;
+import com.qt.maint.common.utils.LogUtils;
 import com.qt.maint.extra.exception.web.entity.ExceptionResponse;
 import org.apache.shiro.authz.UnauthorizedException;
 import org.springframework.http.HttpStatus;

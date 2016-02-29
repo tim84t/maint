@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.entity;
 
-import com.sishuok.es.common.entity.BaseEntity;
+import com.qt.maint.common.entity.BaseEntity;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 

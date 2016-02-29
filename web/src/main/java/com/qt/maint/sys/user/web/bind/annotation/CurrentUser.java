@@ -16,7 +16,7 @@
 
 package com.qt.maint.sys.user.web.bind.annotation;
 
-import com.sishuok.es.common.Constants;
+import com.qt.maint.common.Constants;
 
 import java.lang.annotation.*;
 

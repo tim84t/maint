@@ -6,9 +6,9 @@
 package com.qt.maint.sys.auth.entity;
 
 import com.google.common.collect.Sets;
-import com.sishuok.es.common.entity.BaseEntity;
-import com.sishuok.es.common.repository.hibernate.type.CollectionToStringUserType;
-import com.sishuok.es.common.repository.support.annotation.EnableQueryCache;
+import com.qt.maint.common.entity.BaseEntity;
+import com.qt.maint.common.repository.hibernate.type.CollectionToStringUserType;
+import com.qt.maint.common.repository.support.annotation.EnableQueryCache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;

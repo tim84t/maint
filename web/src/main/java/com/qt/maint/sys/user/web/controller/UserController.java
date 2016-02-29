@@ -5,13 +5,13 @@
  */
 package com.qt.maint.sys.user.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.entity.enums.BooleanEnum;
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.web.bind.annotation.PageableDefaults;
-import com.sishuok.es.common.web.bind.annotation.SearchableDefaults;
-import com.sishuok.es.common.web.controller.BaseCRUDController;
-import com.sishuok.es.common.web.validate.ValidateResponse;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.entity.enums.BooleanEnum;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.web.bind.annotation.PageableDefaults;
+import com.qt.maint.common.web.bind.annotation.SearchableDefaults;
+import com.qt.maint.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.web.validate.ValidateResponse;
 import com.qt.maint.sys.organization.entity.Job;
 import com.qt.maint.sys.organization.entity.Organization;
 import com.qt.maint.sys.user.entity.User;

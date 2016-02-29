@@ -120,7 +120,7 @@
     <jpa:repositories
             base-package="com.qt.maint.**.repository"
             repository-impl-postfix="Impl"
-            factory-class="com.sishuok.es.common.repository.support.SimpleBaseRepositoryFactoryBean"
+            factory-class="com.qt.maint.common.repository.support.SimpleBaseRepositoryFactoryBean"
             entity-manager-factory-ref="entityManagerFactory"
             transaction-manager-ref="transactionManager">
 
@@ -148,8 +148,8 @@
         </tx:attributes>
     </tx:advice>
 
+<!-- 只对业务逻辑层实施事务 -->
     <aop:config expose-proxy="true" proxy-target-class="true">
-        <!-- 只对业务逻辑层实施事务 -->
         <aop:pointcut id="txPointcut" expression="execution(* com.qt.maint..service..*+.*(..)) or execution(* com.qt.maint..task..*+.*(..))"/>
         <aop:advisor id="txAdvisor" advice-ref="txAdvice" pointcut-ref="txPointcut"/>
     </aop:config>
@@ -187,14 +187,14 @@
     <!--设置查询字符串转换器的conversion service-->
     <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
         <property name="staticMethod"
-                  value="com.sishuok.es.common.entity.search.utils.SearchableConvertUtils.setConversionService"/>
+                  value="com.qt.maint.common.entity.search.utils.SearchableConvertUtils.setConversionService"/>
         <property name="arguments" ref="conversionService"/>
     </bean>
 
     <!--设置BaseRepositoryImplHelper辅助类所需的entityManagerFactory-->
     <bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
         <property name="staticMethod"
-                  value="com.sishuok.es.common.repository.RepositoryHelper.setEntityManagerFactory"/>
+                  value="com.qt.maint.common.repository.RepositoryHelper.setEntityManagerFactory"/>
         <property name="arguments" ref="entityManagerFactory"/>
     </bean>
 

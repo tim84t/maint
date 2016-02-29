@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.entity;
 
-import com.sishuok.es.common.entity.BaseEntity;
-import com.sishuok.es.common.repository.support.annotation.EnableQueryCache;
+import com.qt.maint.common.entity.BaseEntity;
+import com.qt.maint.common.repository.support.annotation.EnableQueryCache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;

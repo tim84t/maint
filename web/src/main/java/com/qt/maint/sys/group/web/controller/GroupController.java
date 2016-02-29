@@ -5,12 +5,12 @@
  */
 package com.qt.maint.sys.group.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.entity.enums.BooleanEnum;
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.web.bind.annotation.PageableDefaults;
-import com.sishuok.es.common.web.controller.BaseCRUDController;
-import com.sishuok.es.common.web.controller.permission.PermissionList;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.entity.enums.BooleanEnum;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.web.bind.annotation.PageableDefaults;
+import com.qt.maint.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.web.controller.permission.PermissionList;
 import com.qt.maint.sys.group.entity.Group;
 import com.qt.maint.sys.group.entity.GroupType;
 import com.qt.maint.sys.group.service.GroupRelationService;

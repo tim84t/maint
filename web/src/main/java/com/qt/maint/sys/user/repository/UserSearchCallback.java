@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.repository;
 
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.repository.callback.DefaultSearchCallback;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.repository.callback.DefaultSearchCallback;
 import com.qt.maint.sys.organization.entity.Job;
 import com.qt.maint.sys.organization.entity.Organization;
 

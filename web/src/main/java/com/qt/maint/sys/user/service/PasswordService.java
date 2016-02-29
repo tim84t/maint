@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.service;
 
-import com.sishuok.es.common.utils.security.Md5Utils;
+import com.qt.maint.common.utils.security.Md5Utils;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.exception.UserPasswordNotMatchException;
 import com.qt.maint.sys.user.exception.UserPasswordRetryLimitExceedException;

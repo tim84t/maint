@@ -5,7 +5,7 @@
  */
 package org.apache.shiro.realm;
 
-import com.sishuok.es.common.repository.support.SimpleBaseRepositoryFactoryBean;
+import com.qt.maint.common.repository.support.SimpleBaseRepositoryFactoryBean;
 import com.qt.maint.sys.auth.service.UserAuthService;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.exception.*;

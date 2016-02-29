@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.service;
 
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.user.entity.UserOnline;
 import com.qt.maint.sys.user.repository.UserOnlineRepository;
 import org.springframework.data.domain.Page;

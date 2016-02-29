@@ -5,10 +5,10 @@
  */
 package com.qt.maint.sys.auth.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.web.bind.annotation.SearchableDefaults;
-import com.sishuok.es.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.web.bind.annotation.SearchableDefaults;
+import com.qt.maint.common.web.controller.BaseCRUDController;
 import com.qt.maint.sys.auth.entity.Auth;
 import com.qt.maint.sys.auth.entity.AuthType;
 import com.qt.maint.sys.auth.service.AuthService;

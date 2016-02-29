@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.permission.service;
 
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.permission.entity.Permission;
 import org.springframework.stereotype.Service;
 

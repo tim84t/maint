@@ -6,10 +6,10 @@
 package com.qt.maint.sys.permission.web.controller;
 
 import com.google.common.collect.Sets;
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.entity.enums.AvailableEnum;
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.entity.enums.AvailableEnum;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.web.controller.BaseCRUDController;
 import com.qt.maint.sys.permission.entity.Role;
 import com.qt.maint.sys.permission.entity.RoleResourcePermission;
 import com.qt.maint.sys.permission.service.PermissionService;

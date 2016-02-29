@@ -6,7 +6,7 @@
 package com.qt.maint.sys.group.service;
 
 import com.google.common.collect.Sets;
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.group.entity.GroupRelation;
 import com.qt.maint.sys.group.repository.GroupRelationRepository;
 import org.apache.commons.lang3.ArrayUtils;

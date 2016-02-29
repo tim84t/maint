@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.permission.task;
 
-import com.sishuok.es.common.repository.RepositoryHelper;
-import com.sishuok.es.common.utils.LogUtils;
+import com.qt.maint.common.repository.RepositoryHelper;
+import com.qt.maint.common.utils.LogUtils;
 import com.qt.maint.sys.permission.entity.Role;
 import com.qt.maint.sys.permission.entity.RoleResourcePermission;
 import com.qt.maint.sys.permission.service.PermissionService;

@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.service;
 
-import com.sishuok.es.common.service.BaseService;
+import com.qt.maint.common.service.BaseService;
 import com.qt.maint.sys.user.entity.UserLastOnline;
 import com.qt.maint.sys.user.repository.UserLastOnlineRepository;
 import org.springframework.stereotype.Service;

@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.entity;
 
-import com.sishuok.es.common.entity.AbstractEntity;
+import com.qt.maint.common.entity.AbstractEntity;
 import org.apache.shiro.session.mgt.OnlineSession;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 import org.hibernate.annotations.GenericGenerator;
@@ -92,7 +92,7 @@ public class UserOnline extends AbstractEntity<String> {
      * 备份的当前用户会话
      */
     @Column(name = "session")
-    @Type(type = "com.sishuok.es.common.repository.hibernate.type.ObjectSerializeUserType")
+    @Type(type = "com.qt.maint.common.repository.hibernate.type.ObjectSerializeUserType")
     private OnlineSession session;
 
 

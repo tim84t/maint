@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.permission.repository;
 
-import com.sishuok.es.common.repository.BaseRepository;
+import com.qt.maint.common.repository.BaseRepository;
 import com.qt.maint.sys.permission.entity.Permission;
 
 /**

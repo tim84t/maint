@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.user.web.controller;
 
-import com.sishuok.es.common.web.controller.BaseCRUDController;
+import com.qt.maint.common.web.controller.BaseCRUDController;
 import com.qt.maint.sys.user.entity.UserLastOnline;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

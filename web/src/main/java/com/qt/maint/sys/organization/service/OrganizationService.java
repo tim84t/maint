@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.organization.service;
 
-import com.sishuok.es.common.plugin.serivce.BaseTreeableService;
+import com.qt.maint.common.plugin.serivce.BaseTreeableService;
 import com.qt.maint.sys.organization.entity.Organization;
 import org.springframework.stereotype.Service;
 

@@ -5,7 +5,7 @@
  */
 package com.qt.maint.front.web.controller;
 
-import com.sishuok.es.common.Constants;
+import com.qt.maint.common.Constants;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.service.UserStatusHistoryService;
 import org.apache.shiro.SecurityUtils;

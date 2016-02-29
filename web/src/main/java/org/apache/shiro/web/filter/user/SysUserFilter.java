@@ -5,7 +5,7 @@
  */
 package org.apache.shiro.web.filter.user;
 
-import com.sishuok.es.common.Constants;
+import com.qt.maint.common.Constants;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.entity.UserStatus;
 import com.qt.maint.sys.user.service.UserService;

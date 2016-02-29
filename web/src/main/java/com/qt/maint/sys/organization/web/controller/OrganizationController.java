@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.organization.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.plugin.web.controller.BaseTreeableController;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.plugin.web.controller.BaseTreeableController;
 import com.qt.maint.sys.organization.entity.Organization;
 import com.qt.maint.sys.organization.entity.OrganizationType;
 import org.springframework.stereotype.Controller;

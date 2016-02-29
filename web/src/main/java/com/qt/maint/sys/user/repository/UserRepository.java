@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.user.repository;
 
-import com.sishuok.es.common.repository.BaseRepository;
-import com.sishuok.es.common.repository.support.annotation.SearchableQuery;
+import com.qt.maint.common.repository.BaseRepository;
+import com.qt.maint.common.repository.support.annotation.SearchableQuery;
 import com.qt.maint.sys.user.entity.User;
 import com.qt.maint.sys.user.entity.UserOrganizationJob;
 import org.springframework.data.domain.Page;

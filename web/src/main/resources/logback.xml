@@ -47,7 +47,7 @@
         </encoder>
     </appender>
 
-    <root level="debug"/>
+    <root level="info"/>
 
     <!--<logger name="org.apache" level="debug">-->
         <!--<appender-ref ref="STDOUT"/>-->
@@ -72,7 +72,7 @@
     </logger>
 
     <logger name="org.springframework" level="debug">
-        <appender-ref ref="INFO"/>
+        <appender-ref ref="STDOUT"/>
     </logger>
 
 </configuration>

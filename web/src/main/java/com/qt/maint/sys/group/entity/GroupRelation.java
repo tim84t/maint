@@ -5,7 +5,7 @@
  */
 package com.qt.maint.sys.group.entity;
 
-import com.sishuok.es.common.entity.BaseEntity;
+import com.qt.maint.common.entity.BaseEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

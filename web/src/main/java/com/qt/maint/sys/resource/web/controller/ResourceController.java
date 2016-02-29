@@ -5,8 +5,8 @@
  */
 package com.qt.maint.sys.resource.web.controller;
 
-import com.sishuok.es.common.Constants;
-import com.sishuok.es.common.plugin.web.controller.BaseTreeableController;
+import com.qt.maint.common.Constants;
+import com.qt.maint.common.plugin.web.controller.BaseTreeableController;
 import com.qt.maint.sys.resource.entity.Resource;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

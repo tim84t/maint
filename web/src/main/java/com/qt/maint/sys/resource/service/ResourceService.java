@@ -5,9 +5,9 @@
  */
 package com.qt.maint.sys.resource.service;
 
-import com.sishuok.es.common.entity.search.SearchOperator;
-import com.sishuok.es.common.entity.search.Searchable;
-import com.sishuok.es.common.plugin.serivce.BaseTreeableService;
+import com.qt.maint.common.entity.search.SearchOperator;
+import com.qt.maint.common.entity.search.Searchable;
+import com.qt.maint.common.plugin.serivce.BaseTreeableService;
 import com.qt.maint.sys.auth.service.UserAuthService;
 import com.qt.maint.sys.resource.entity.Resource;
 import com.qt.maint.sys.resource.entity.tmp.Menu;
