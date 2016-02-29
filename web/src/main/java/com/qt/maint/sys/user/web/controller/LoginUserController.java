@@ -55,7 +55,7 @@ public class LoginUserController extends BaseController<User, Long> {
         model.addAttribute(Constants.OP_NAME, "查看个人资料");
         user = userService.findOne(user.getId());
         model.addAttribute("user", user);
-        model.addAttribute("lastOnline", userLastOnlineService.findByUserId(user.getId()));
+//        model.addAttribute("lastOnline", userLastOnlineService.findByUserId(user.getId()));
         return viewName("editForm");
     }
 

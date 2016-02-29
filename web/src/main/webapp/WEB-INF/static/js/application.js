@@ -14,50 +14,50 @@ $.app = {
         var notification = $.app.initNotification();
         var fiveMinute = 5 * 60 * 1000;
         var pollingUrl = ctx + "/admin/polling";
-        var longPolling = function(url, callback) {
-            $.ajax({
-                url: url,
-                async: true,
-                cache: false,
-                global: false,
-                timeout: 30 * 1000,
-                dataType : "json",
-                success: function (data, status, request) {
-                    callback(data);
-                    data = null;
-                    status = null;
-                    request = null;
-                    setTimeout(
-                        function () {
-                            longPolling(url, callback);
-                        },
-                        10
-                    );
-                },
-                error: function (xmlHR, textStatus, errorThrown) {
-                    xmlHR = null;
-                    textStatus = null;
-                    errorThrown = null;
-
-                    setTimeout(
-                        function () {
-                            longPolling(url, callback);
-                        },
-                        30 * 1000
-                    );
-                }
-            });
-        };
-        longPolling(pollingUrl, function(data) {
-            if(data) {
-                if(data.unreadMessageCount) {
-                    message.update(data.unreadMessageCount);
-                }
-                if(data.notifications) {
-                    notification.update(data.notifications);
-                }
-            }
-        });
+        //var longPolling = function(url, callback) {
+        //    $.ajax({
+        //        url: url,
+        //        async: true,
+        //        cache: false,
+        //        global: false,
+        //        timeout: 30 * 1000,
+        //        dataType : "json",
+        //        success: function (data, status, request) {
+        //            callback(data);
+        //            data = null;
+        //            status = null;
+        //            request = null;
+        //            setTimeout(
+        //                function () {
+        //                    longPolling(url, callback);
+        //                },
+        //                10
+        //            );
+        //        },
+        //        error: function (xmlHR, textStatus, errorThrown) {
+        //            xmlHR = null;
+        //            textStatus = null;
+        //            errorThrown = null;
+        //
+        //            setTimeout(
+        //                function () {
+        //                    longPolling(url, callback);
+        //                },
+        //                30 * 1000
+        //            );
+        //        }
+        //    });
+        //};
+        //longPolling(pollingUrl, function(data) {
+        //    if(data) {
+        //        if(data.unreadMessageCount) {
+        //            message.update(data.unreadMessageCount);
+        //        }
+        //        if(data.notifications) {
+        //            notification.update(data.notifications);
+        //        }
+        //    }
+        //});
 
     },
     initCommonBtn : function() {
@@ -955,7 +955,7 @@ $.layouts = {
             ,   north : {
                 togglerLength_open : 0
                 ,  resizable : false
-                ,  size: 95
+                ,  size: 45
             },
             south: {
                 resizable:false

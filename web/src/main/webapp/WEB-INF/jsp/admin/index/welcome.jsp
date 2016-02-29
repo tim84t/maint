@@ -52,7 +52,7 @@
         <legend>
             我的日历
 
-            (<span class="badge badge-important" data-toggle="tooltip" data-placement="bottom" title="最近三天，您有${calendarCount}个提醒提醒事项">${calendarCount}个</span>)
+            <%--(<span class="badge badge-important" data-toggle="tooltip" data-placement="bottom" title="最近三天，您有${calendarCount}个提醒提醒事项">${calendarCount}个</span>)--%>
             <i class="icon-double-angle-down"></i>
         </legend>
 
@@ -68,21 +68,21 @@
 <es:contentFooter/>
 <%@include file="/WEB-INF/jsp/common/import-calendar-js.jspf"%>
 <script>
-    $(function() {
-        $.app.initCommonBtn();
-        $("legend").click(function() {
-            var next = $(this).next();
-            if(next.is(":hidden")) {
-                $(this).find("i").removeClass("icon-double-angle-up");
-                $(this).find("i").addClass("icon-double-angle-down");
-                next.slideDown(300);
-            } else {
-                next.slideUp(300);
-                $(this).find("i").removeClass("icon-double-angle-down");
-                $(this).find("i").addClass("icon-double-angle-up");
-            }
-        });
-        $.app.initCalendar();
-
-    })
+//    $(function() {
+//        $.app.initCommonBtn();
+//        $("legend").click(function() {
+//            var next = $(this).next();
+//            if(next.is(":hidden")) {
+//                $(this).find("i").removeClass("icon-double-angle-up");
+//                $(this).find("i").addClass("icon-double-angle-down");
+//                next.slideDown(300);
+//            } else {
+//                next.slideUp(300);
+//                $(this).find("i").removeClass("icon-double-angle-down");
+//                $(this).find("i").addClass("icon-double-angle-up");
+//            }
+//        });
+//        $.app.initCalendar();
+//
+//    })
 </script>
