@@ -15,7 +15,7 @@
     <context:property-placeholder location="classpath:resources.properties"/>
 
     <!-- 扫描注解Bean -->
-    <context:component-scan base-package="com.qt.maint.common.service,com.qt.maint.sys.**.service,com.qt.maint.**.extra">
+    <context:component-scan base-package="com.qt.maint.**.service,com.qt.maint.**.extra">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <!-- 开启AOP监听 只对当前配置文件有效 -->
@@ -65,7 +65,7 @@
     <bean id="entityManagerFactory"
           class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSourceProxy"/>
-        <property name="packagesToScan" value="com.qt.maint.sys.**.entity"/>
+        <property name="packagesToScan" value="com.qt.maint.**.entity"/>
 
         <property name="persistenceUnitName" value="${jpa.persistenceUnitName}"/>
         <property name="persistenceProvider">
