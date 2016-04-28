@@ -1,2 +1,9 @@
+/.idea
+/.settings
+/common/.settings
+/common/target
+/parent/.settings
+/web/.settings
 /web/src/main/webapp/WEB-INF/lib
 /web/log.dir_IS_UNDEFINED
+/web/target
